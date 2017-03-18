@@ -1,1 +1,192 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url(images/1280px-Pano-Zurich-CityScape-FromGrossMunster-RiverSide.jpg);
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/w3images/parallax2.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/w3images/parallax3.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <div class="date">
+    <h1 style="color:white"><b>June 26th - July 1st</b></h1></div>
+    <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity"> HEPTAGON HACKS 2017 </span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+
+    <div class="w3-content w3-container w3-padding" id="about">
+    
+    <h1 class="w3-center title"><b>Looking for a unique summer opportunity where you'll take the lead?</b> 
+    </h1>
+
+        <h3 style="text-align:center">Heptagon Hacks is a week long summer program for ZIS hosted by Heptagon AG. It is capped off with a 24-hour “Internet of Things” hackathon. During this time, students will work in teams to implement and execute IoT projects using Heptagon’s hardware kits, while having access to resources and guidance throughout. Most importanty the hackathon will be a time to generate cool IoT ideas and learn something new!
+        
+        </h3> 
+
+    <div class="section-body">
+          
+        <div class="faq-row">
+            <div class="faq-card">
+                <div class="card-title">What is a Hackathon?</div> 
+                <div class="card-body">
+                A 24 hour event where you will get the chance to build something really cool. You will go through the entire process of creating something new: from ideation, to testing, to protoyping a novel IoT project.
+                </div>
+                
+            </div>
+            
+            <div class="faq-card">
+                <div class="card-title">What is IoT?</div> 
+                <div class="card-body">
+                A 24 hour event where you will get the chance to build something really cool. You will go through the entire process of creating something new: from ideation, to testing, to protoyping a novel IoT project.
+                </div>
+                
+            </div>
+            
+            <div class="faq-card">
+                <div class="card-title">Will I be paid?</div> 
+                <div class="card-body">
+                You will be paid for the work and the time you put in during the one week bootcamp + hackathon program. In addition, you will receive a letter of recognition that you can use as a future reference for when applying to Universities or other internships.
+                </div>
+                
+            </div>
+            
+              <div class="faq-card">
+                <div class="card-title">What if I have more questions?</div> 
+                <div class="card-body">
+                Feel free to reach out at raghav.m@outlook.com
+                </div>
+                
+            </div>
+                      
+           
+        </div>
+        
+          <div class="faq-row">
+            <div class="faq-card">
+                <div class="card-title">What will I be able to make at the Hackathon?</div> 
+                <div class="card-body">
+                Anything you want related to IoT! You'll be given the resources, help, and hardware to create a successful project, like for example a coffee machine that you can control with your phone, or a device that helps you with the right sitting posture.
+                </div>
+                
+                
+                
+            </div>
+            <div class="faq-card">
+                <div class="card-title">What if I have no experience with programming/hardware?</div> 
+                <div class="card-body">
+                No experience is needed at all! All the important information and skills that you need to create a cool project will be taught during a one week "bootcamp" before the hackathon, where you'll be able to learn from engineers etc. You can participate even if you've never written a line of code.
+                </div>
+        </div>
+                
+              
+            </div>
+        
+        
+         
+        
+    </div>      
+        
+    
+        
+        
+          
+    
+    
+        
+
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
