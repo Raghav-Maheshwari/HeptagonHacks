@@ -443,6 +443,10 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
     margin-bottom: 30px;
 }
 
+.description {
+    text-align: center;
+}
+
 @media only screen and (max-width: 400px)
 {
     .title {
@@ -453,6 +457,62 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
         font-size: 9px;
         text-align: center;
     }
+    
+    .faq-card-end {
+    width: 100%;
+    float: left;
+    min-width: 40%;
+    padding: 0px 04px;
+    margin-bottom: 14px;
+    }
+    
+    .faq-card {
+    
+    margin-bottom: 7px;
+    background-color: #E9E9F0;
+    border-radius: 2px;
+    color: #253031;
+    padding: 18px 14px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+    .faq-row {
+        width: 50%;
+        float: left;
+        min-width: 40%;
+        padding: 0px 2px;
+        margin-bottom: 14px;
+
+    }
+
+    .section-body {
+        width: 100%;
+        text-align: center;
+        margin-top: 28px;
+
+    }
+
+    .card-title {
+        font-size: 28px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .card-body {
+        font-size: 16px;
+        line-height: 1.7;
+        font-weight: 400;
+    }
+
+    .card {
+        margin-right: inherit;
+    }
+    
+    
 }
 
 
