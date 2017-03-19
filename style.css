@@ -447,8 +447,39 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
     text-align: center;
 }
 
+.main-title
+{
+
+position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+    background-color: black;
+    letter-spacing: 10px;
+    white-space:nowrap;
+    text-align: center;
+    
+    
+}
+
+.titlemain
+{
+    margin:10px; 10px; 10px; 10px;
+    color:white;
+    font-size: 40px;
+}
+
 @media only screen and (max-width: 400px)
 {
+    .titlemain
+    {
+        font-size:28px;
+        
+    }
+    
+    .main-title
+    {
+        white-space: wrap;
+        text-align: center;
+    }
+    
     .heptagon {
         font-size: 28px;
     }
