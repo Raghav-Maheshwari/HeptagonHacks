@@ -388,7 +388,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .faq-card {
     
     margin-bottom: 20px;
-    background-color: #E9E9F0;
+    background-color: #e3e3e3;
     border-radius: 4px;
     color: #253031;
     padding: 40px 30px;
@@ -414,7 +414,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 }
 
 .card-title {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 1.5;
     margin-bottom: 25px;
     font-weight: bold;
@@ -425,6 +425,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
     font-size: 25px;
     line-height: 1.7;
     font-weight: 400;
+    text-align: center;
 }
 
 .card {
@@ -468,7 +469,9 @@ position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:
     font-size: 40px;
 }
 
-@media only screen and (max-width: 800px)
+
+
+@media only screen and (max-width: 1024px)
 {
     .titlemain
     {
@@ -512,7 +515,7 @@ position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:
     color: #253031;
     padding: 18px 14px;
     position: relative;
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 
@@ -544,6 +547,7 @@ position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:
         font-size: 16px;
         line-height: 1.7;
         font-weight: 400;
+        text-align: center;
     }
 
     .card {
