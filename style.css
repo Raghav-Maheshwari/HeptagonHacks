@@ -479,7 +479,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 }
 
     .faq-row {
-        width: 50%;
+        width: 100%;
         float: left;
         min-width: 40%;
         padding: 0px 2px;
