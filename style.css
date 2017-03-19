@@ -516,6 +516,11 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
         margin-right: inherit;
     }
     
+    .bgimg-1 {
+    background-image: url(images/1280px-Pano-Zurich-CityScape-FromGrossMunster-RiverSide.jpg);
+    max-height: 40%;
+}
+    
     
 }
 
