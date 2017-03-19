@@ -483,7 +483,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
         float: left;
         min-width: 40%;
         padding: 0px 2px;
-        margin-bottom: 14px;
+        margin: auto;
 
     }
 
