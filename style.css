@@ -478,7 +478,13 @@ position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:
 
 @media only screen and (max-width: 1024px)
 {
-   .form-google
+    .link
+    {
+        white-space: wrap;
+        text-align: center;
+    }
+    
+    .form-google
     {
         display: none;
     }
@@ -576,6 +582,8 @@ position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:
     
     
 }
+
+
 
 
 
