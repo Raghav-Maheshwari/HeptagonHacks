@@ -385,6 +385,11 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
     
 }
 
+.image:hover > .overlay {
+        
+    opacity:0.5;
+}
+
 .faq-card {
     
     margin-bottom: 20px;
@@ -478,6 +483,16 @@ position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:
 
 @media only screen and (max-width: 1024px)
 {
+    .whyApply
+    {
+        text-align: center;
+    }
+    
+    .hyperlink
+    {
+        font-size: 17px;
+    }
+    
     .link
     {
         white-space: wrap;
@@ -512,7 +527,7 @@ position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:
     
     .description {
         font-size: 13px;
-        text-align: center;
+        
     }
     
     .faq-card-end {
@@ -590,4 +605,11 @@ position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:
 
 .form {
     
+}
+
+
+
+.image {
+    margin-top: 15px;
+    padding-right: 10px;
 }
